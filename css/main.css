@@ -833,7 +833,7 @@ form {
 }
 .tabs a {
 	height: 64px;
-	padding: 0 42px;
+	padding: 0 42px; 
 	background: #FFFFFF;
 	border: 1px solid #00A7A9;
 	border-radius: 10px;
