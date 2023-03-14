@@ -287,6 +287,7 @@ form {
 	border: none;
 	cursor: pointer;
 	position: relative;
+	transition: all 0.3s;
 }
 .btn-main::after {
 	position: absolute;
@@ -822,7 +823,7 @@ form {
 	background: rgba(238, 238, 238, 0.6);
 }
 .steps .title-section {
-	padding-bottom: 30px;
+	padding-bottom: 30px; 
 	text-align: center;
 }
 .tabs {
