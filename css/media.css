@@ -169,6 +169,13 @@
 	.header-info a {
 		margin-left: 15px;
 	}
+	.form-block {
+		padding: 40px 40px;
+	}
+	.item-form textarea, .item-form input {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 @media only screen and (max-width : 1310px) and (min-width : 1200px) {
 	.container {
