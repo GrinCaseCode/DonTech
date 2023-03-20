@@ -1,5 +1,5 @@
 /*==========  Desktop First Method  ==========*/
-@media only screen and (max-width : 1310px) {
+@media only screen and (max-width : 1700px) {
 	body {
 		font-size: 15px;
 		line-height: 25px;
@@ -42,7 +42,7 @@
 		font-size: 16px;
 		line-height: 24px;
 		margin-bottom: 25px;
-		max-width: 760px;
+		max-width: 735px;
 	}
 	.billbord {
 		padding-top: 50px;
@@ -147,8 +147,203 @@
 		font-size: 23px;
 		line-height: 38px;
 	}
+	.item-partner {
+		height: 120px;
+	}
+	.footer__contacts {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.item-catalog__image {
+		height: 165px;
+	}
+	.item-step {
+		padding: 24px;
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.steps {
+		padding-top: 45px;
+		padding-bottom: 60px;
+	}
+	.header-info a {
+		margin-left: 15px;
+	}
 }
-
+@media only screen and (max-width : 1310px) and (min-width : 1200px) {
+	.container {
+		max-width: 1000px;
+	}
+	.logo-descr {
+		font-size: 10px;
+		line-height: 15px;
+		margin-left: 14px;
+		max-width: 161px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.header-info {
+		font-size: 11px;
+		line-height: 17px;
+	}
+	.header-info a {
+		margin-left: 11px;
+	}
+	.search-form {
+		width: 188px;
+	}
+	.socials-simple li {
+		margin-right: 10px;
+	}
+	.title-min {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.item-advantage__title {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.item-advantage {
+		padding: 14px 21px;
+		padding-bottom: 66px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.row_advantages {
+		margin: 0 -6px;
+	}
+	.row_advantages > div {
+		padding: 0 6px;
+	}
+	.list-billbord {
+		font-size: 15px;
+		line-height: 22px;
+		margin-bottom: 20px;
+		max-width: 685px;
+	}
+	.title-billbord {
+		font-size: 50px;
+		line-height: 63px;
+	}
+	.billbord__wrap .title-billbord {
+		max-width: 419px;
+	}
+	.item-category {
+		height: 225px;
+	}
+	.item-category__name {
+		min-width: 200px;
+		padding-left: 30px;
+		padding-right: 22px;
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.feature-catalog {
+		font-size: 13px;
+		margin-bottom: 5px;
+	}
+	.item-catalog__title {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	.title-block {
+		font-size: 29px;
+		line-height: 42px;
+	}
+	.form-samples .title-block {
+		padding-bottom: 23px;
+	}
+	.form-block {
+		padding: 33px 25px;
+	}
+	.item-form textarea, 
+	.item-form input {
+		padding: 0 12px;
+		font-size: 12px;
+	}
+	.item-partner {
+		height: 120px;
+	}
+	.item-step__value {
+		width: 68px;
+		height: 60px;
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.item-step {
+		padding: 20px;
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.steps {
+		padding-top: 45px;
+		padding-bottom: 55px;
+	}
+	.list-block {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.form-scheme .list-block {
+		max-width: 480px;
+	}
+	.list-block li {
+		margin-bottom: 15px;
+	}
+	.title-section {
+		font-size: 29px;
+		line-height: 39px;
+	}
+	.image-scheme {
+		top: 15px;
+		transform: scale(0.7);
+	}
+	.checkbox {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.form-block_page {
+		padding: 40px 25px;
+	}
+	.image-delivery img {
+		max-width: 515px;
+	}
+	.image-delivery {
+		margin-top: 78px;
+	}
+	.item-question__head {
+		padding: 12px;
+		padding-left: 20px;
+	}
+	.item-question__content {
+		padding: 20px;
+		padding-right: 50px;
+	}
+	.title-form {
+		font-size: 20px;
+		line-height: 28px;
+		padding-bottom: 15px;
+	}
+	.item-form textarea {
+		padding-top: 10px;
+	}
+	.contacts-block {
+		font-size: 16px;
+		padding-top: 35px;
+		padding-left: 25px;
+		padding-right: 20px;
+		width: 380px;
+	}
+	.footer__contacts {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.footer-bottom {
+		font-size: 13px;
+		line-height: 18px;
+	}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.header__wrapper .header-info {
@@ -568,6 +763,10 @@
 		padding-top: 35px;
 		padding-bottom: 50px;
 	}
+	.catalog {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -677,7 +876,9 @@
 @media only screen and (min-width : 1200px) {
 
 }
-@media (min-width: 1310px) {
+
+
+@media (min-width: 1700px) {
 	.container {
 		max-width: 1310px;
 	}
