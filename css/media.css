@@ -846,6 +846,9 @@
 	.categories .title-section {
 		padding-bottom: 0;
 	}
+	.title-block {
+		line-height: 35px;
+	}
 }
 
 /* Custom, iPhone Retina */
