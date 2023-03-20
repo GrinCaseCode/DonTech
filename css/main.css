@@ -695,6 +695,7 @@ form {
 }
 .form-block .btn-main {
 	width: 280px;
+	max-width: 100%;
 	display: flex;
 	margin: 0 auto;
 	margin-top: 15px;
