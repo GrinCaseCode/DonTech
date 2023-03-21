@@ -1229,7 +1229,7 @@ form {
 	align-items: center;
 }
 .create a {
-	margin-left: 15px;
+	margin-left: 15px; 
 }
 .footer-bottom a {
 	color: #CECECE;
@@ -1360,4 +1360,6 @@ form {
 .header-bottom__mobile {
 	display: none;
 }
-
+.phone-main i {
+	display: none;
+}

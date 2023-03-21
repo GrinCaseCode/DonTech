@@ -576,8 +576,12 @@
 		align-items: center;
 		justify-content: space-between;
 		margin: 0;
-		padding: 10px 0;
-		border-bottom: 1px solid #fff;
+		padding: 7px 0;
+		padding-right: 15px;
+	}
+	.footer__nav_big, .footer__title {
+		font-size: 14px;
+		line-height: 21px;
 	}
 	.footer .logo-wrap {
 		margin-bottom: 10px;
@@ -674,12 +678,38 @@
 	.contacts-block .btn-main {
 		left: -5px;
 	}
+
+	.phone-main {
+		font-size: 0;
+		line-height: 0;
+		margin-left: 15px;
+	}
+	.phone-main i {
+		font-size: 15px;
+		font-size: 25px;
+		color: #005F97;
+		display: inline-block;
+	}
+	.header__wrapper .header-contacts {
+		display: block;
+		margin-left: auto;
+		margin-right: 20px;
+	}
+	.header__wrapper .link-simple {
+		display: none;
+	}
+	.logo img {
+		width: 145px;
+	}
+	.header__wrapper {
+		padding: 13px 0;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.title-billbord {
-		font-size: 33px;
+		font-size: 33px; 
 		line-height: 46px;
 	}
 	.value-billbord {
