@@ -707,6 +707,10 @@
 	.logo-wrap .logo {
 		top: 0;
 	}
+	.footer__contacts .phone-main, 
+	.contacts-block .phone-main {
+		margin: 0;
+	}
 }
 
 /* Small Devices, Tablets */
