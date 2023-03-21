@@ -704,6 +704,9 @@
 	.header__wrapper {
 		padding: 13px 0;
 	}
+	.logo-wrap .logo {
+		top: 0;
+	}
 }
 
 /* Small Devices, Tablets */
