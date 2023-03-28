@@ -19,8 +19,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".nav-article a").mPageScroll2id({
+		offset: 110
+	});
 
+$(".btn-main_filter").click(function(e) {
+		e.preventDefault();
+		$(".nav-catalog").slideToggle(200);
+	});
+
+$(".item-color").click(function() {
+	$(this).addClass("active");
+	$(this).siblings().removeClass("active");
+	});
 
 	//кнопка sandwich
 	$(".sandwich").click(function() {
