@@ -237,6 +237,19 @@
 		padding-right: 15px;
 		line-height: 30px;
 	}
+	.item-gallery {
+		height: 240px;
+	}
+	.block-form {
+    padding: 24px 40px;
+    padding-bottom: 32px;
+}
+.contact-block {
+    font-size: 17px;
+}
+.requisites {
+    line-height: 38px;
+}
 }
 @media only screen and (max-width : 1310px) and (min-width : 1200px) {
 	.container {
@@ -480,6 +493,20 @@
 		margin-top: 25px;
 		line-height: 27px;
 	}
+	.item-gallery {
+		height: 220px;
+	}
+	.page-delivery .title-small {
+		font-size: 18px;
+		line-height: 28px;
+		padding-bottom: 15px;
+	}
+	.contact-block {
+    font-size: 16px;
+}
+.requisites {
+    line-height: 34px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -678,6 +705,19 @@
 		margin-top: 20px;
 		line-height: 25px;
 	}
+	.page-delivery {
+		padding-bottom: 20px;
+	}
+	.block-form .checkbox {
+		white-space: normal;
+	}
+	.block-form {
+    padding: 20px 20px;
+    padding-bottom: 29px;
+}
+.contact-block .title-small {
+    padding-bottom: 15px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -871,12 +911,12 @@
 		left: -5px;
 	}
 
-	.phone-main {
+	.header .phone-main {
 		font-size: 0;
 		line-height: 0;
 		margin-left: 15px;
 	}
-	.phone-main i {
+	.header .phone-main i {
 		font-size: 15px;
 		font-size: 25px;
 		color: #005F97;
@@ -965,6 +1005,27 @@
 		line-height: 29px;
 		padding-top: 25px;
 		padding-bottom: 14px;
+	}
+	.page-about .title-small {
+		padding-bottom: 12px;
+	}
+	.page-about .image-simple {
+		margin-top: 20px;
+	}
+	.gallery {
+		padding-bottom: 0;
+	}
+	.image-boxes {
+		margin-top: 15px;
+	}
+	.page-delivery {
+		padding-bottom: 0;
+	}
+	.page-contacts .block-form {
+		margin-top: 20px;
+	}
+	.page-contacts #map {
+		height: 350px;
 	}
 }
 
@@ -1138,6 +1199,36 @@
 	.article {
 		padding-bottom: 50px;
 	}
+	.page-about .title-small {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.gallery .title-section {
+		padding-bottom: 20px;
+	}
+	.gallery {
+		padding-top: 15px;
+	}
+	.slider-gallery {
+		padding-bottom: 28px;
+	}
+	.page-delivery .title-small {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.contact-block {
+		padding-bottom: 20px;
+	}
+	.contact-block {
+    font-size: 14px;
+}
+.requisites {
+    line-height: 30px;
+}
+.contact-block .title-small {
+	font-size: 18px;
+	line-height: 30px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1248,6 +1339,22 @@
 	.article h1 {
 		font-size: 22px;
 	}
+	.page-about .title-small {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.page-contacts .title-section {
+    padding-bottom: 17px;
+}
+.page-contacts {
+    padding-top: 28px;
+}
+.contact-block .title-small {
+    padding-bottom: 10px;
+}
+.page-contacts .ymaps-2-1-79-balloon {
+	display: none !important;
+}
 }
 
 /* Custom, iPhone Retina */
